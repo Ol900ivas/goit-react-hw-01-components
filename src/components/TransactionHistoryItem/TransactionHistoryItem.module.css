@@ -1,10 +1,14 @@
 tr {
   height: 40px;
+  border-left: 3px solid rgb(255, 0, 128);
 }
 
-tbody tr {
-  border: 1px solid rgb(184, 189, 189);
-}
+/* tbody tr:not(:last-child) {
+  border-right: 1px solid rgb(10, 44, 44);
+} */
+/* tbody tr {
+  border: 1px solid rgb(112, 29, 111);
+} */
 tbody tr:nth-child(odd) {
   background-color: #ffffff;
 }

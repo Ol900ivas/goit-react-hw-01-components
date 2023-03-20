@@ -1,4 +1,5 @@
 .profile {
+  background-color: #ffffff;
   margin-top: 40px;
   padding-top: 40px;
   display: flex;
@@ -6,6 +7,11 @@
   text-align: center;
   width: 400px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile:hover,
+.profile:focus {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -37,9 +43,7 @@
   background-color: rgb(235, 235, 235);
   border-top: 1px solid rgb(184, 189, 189);
 }
-/* .stats:not(:last-child) {
-  border-right: 1px solid rgb(184, 189, 189);
-} */
+
 .statsWrap {
   display: flex;
   flex-direction: column;
@@ -47,11 +51,10 @@
   width: calc(100% / 3);
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.statsWrap:not(:last-child) {
   border-right: 1px solid rgb(184, 189, 189);
 }
-/* .statsWrap :not(:last-of-type) {
-  border-right: 1px solid rgb(184, 189, 189);
-} */
 
 .label {
   font-size: 20px;

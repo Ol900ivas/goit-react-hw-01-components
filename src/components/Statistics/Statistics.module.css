@@ -1,4 +1,5 @@
 .statistics {
+  background-color: #ffffff;
   margin-top: 80px;
   padding-top: 40px;
   display: flex;
@@ -6,7 +7,7 @@
   text-align: center;
   width: 480px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .title {
   text-transform: uppercase;
@@ -15,6 +16,7 @@
   color: rgb(72, 71, 71);
 }
 .stat-list {
+  /* border-top: 1px solid rgb(184, 189, 189); */
   background-color: rgb(235, 235, 235);
   display: flex;
   justify-content: space-evenly;
@@ -23,5 +25,12 @@
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 20px;
-  /* width: calc(100% / 4); */
+}
+/* .item:not(:last-child) {
+  border-right: 1px solid rgb(184, 189, 189);
+} */
+
+.statistics:hover,
+.statistics:focus {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

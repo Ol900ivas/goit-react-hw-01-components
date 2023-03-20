@@ -1,15 +1,26 @@
 .transaction-history {
+  table-layout: fixed;
   margin-top: 80px;
   width: 640px;
   text-align: center;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-bottom: 40px;
+}
+
+.transaction-history:hover,
+.transaction-history:focus {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .table-head {
   font-size: 28px;
   text-transform: uppercase;
   background-color: rgb(85, 128, 165);
   color: #ffffff;
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
+}
+
+.table-head tr:not(:last-child) {
+  border-top: none;
+  border-right: 1px solid #ffffff;
 }
