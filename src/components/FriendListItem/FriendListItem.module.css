@@ -11,5 +11,10 @@
   background-color: rgb(239, 29, 29);
   border-radius: 50%;
 }
-/* avatar
-name */
+.avatar {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.name {
+  font-size: 28px;
+}

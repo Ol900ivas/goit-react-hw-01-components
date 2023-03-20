@@ -9,7 +9,7 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
       ) : (
         <div className={css.offline}></div>
       )}
-      <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
+      <img className={css.avatar} src={avatar} alt="User avatar" width="64" />
       <p className={css.name}>{name}</p>
     </>
   );

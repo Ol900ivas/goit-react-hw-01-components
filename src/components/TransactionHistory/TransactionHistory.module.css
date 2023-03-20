@@ -1,1 +1,15 @@
-/* .transaction-history {} */
+.transaction-history {
+  margin-top: 80px;
+  width: 640px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 40px;
+}
+.table-head {
+  font-size: 28px;
+  text-transform: uppercase;
+  background-color: rgb(85, 128, 165);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
