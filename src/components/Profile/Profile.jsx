@@ -41,10 +41,6 @@ export const Profile = ({ user }) => {
   );
 };
 
-// Profile.propTypes = {
-//   user: PropTypes.array.isRequired,
-// };
-
 Profile.propTypes = {
   user: PropTypes.exact({
     username: PropTypes.string.isRequired,
