@@ -3,9 +3,9 @@
   margin-top: 80px;
   width: 640px;
   text-align: center;
-  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-bottom: 40px;
+  border-collapse: collapse;
 }
 
 .transaction-history:hover,
@@ -17,10 +17,8 @@
   text-transform: uppercase;
   background-color: rgb(85, 128, 165);
   color: #ffffff;
-  /* border: 1px solid #ffffff; */
 }
-
-.table-head tr:not(:last-child) {
+.table-head th:not(:last-child) {
   border-top: none;
   border-right: 1px solid #ffffff;
 }

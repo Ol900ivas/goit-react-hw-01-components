@@ -20,11 +20,11 @@
   padding-bottom: 40px;
   margin: 0 auto;
 }
+
 .avatar {
-  width: 260px;
-  height: 260px;
   display: block;
-  /* margin-bottom: 360px; */
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .name {
   font-size: 28px;
